@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .marker{
+            display: inline-flex;
+            margin-top: 20px;
+            height: 50px;
+            width : 60vw;
+        }
+        .red{
+            background: linear-gradient(rgb(221, 12, 12),white,rgb(221,12,12));
+        }
+        .green{
+            background: linear-gradient(rgb(12, 221, 12),white,rgb(12, 221, 12));
+        }
+        .blue{
+            background: linear-gradient(rgb(12, 12, 221),white,rgb(12, 12, 221));
+        }
+        .cap{
+            border-right: 10px double black;
+            height: 100%;
+            width: 30%;
+            backdrop-filter: brightness(90%);
+        }
+        .sleev{
+            height: 100%;
+            width: 60%;
+            background: rgb(255,255,255,0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Color Markers</h1>
+        <div class="marker red">
+            <div class="cap"></div>
+            <div class="sleev"></div>
+        </div>
+        <div class="marker green">
+            <div class="cap"></div>
+            <div class="sleev"></div>
+        </div>
+        <div class="marker blue">
+            <div class="cap"></div>
+            <div class="sleev"></div>
+        </div>
+    </div>
+</body>
+</html>
